@@ -1,0 +1,144 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #2e2e2e;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: rgb(255, 102, 0);
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-header h1 {
+  
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#collapsable-nav {
+  visibility: hidden;
+}
+.navbar-header > a{
+  text-decoration: none;
+}
+
+/** HEADER ENDS **/
+
+/** OUR MENU HEADING **/
+.menu-bg {
+  margin-top: 0;
+  color: #2e2e2e;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: rgb(255, 246, 236);
+  width: 100%;
+  margin-bottom: 80px;
+  
+  
+}
+
+.our-menu > h2 {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/** OUR MENU END **/
+
+/** MENU CATEGORY **/
+
+#menu-tile {
+ 
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  text-align: justify;
+  overflow: hidden;
+  padding-top: 80px;
+}
+
+#menu-tile h3:hover {
+  box-shadow: 0 1px 5px 1px #ffb78ef6;
+}
+
+#menu-tile h3 {
+  position: absolute;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: rgb(255, 255, 255);
+  color: #2e2e2e;
+  
+}
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #2e2e2e;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+  
+}
+
+/** FOR SMALL DEVICE **/
+@media (min-width: 768px) and (max-width: 991px) {
+  .h3-last {
+    clear: both;
+    width: 100px;
+  }
+
+  
+  
+  
+}
+/** FOR xSMALL DEVICES **/
+@media (max-width : 767px) 
+{
+  .menu-bg {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .our-menu > h2 {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #collapsable-nav {
+    visibility: visible;
+  }
+  
+  .navbar-header h1 {
+  
+    width: 200px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+}
